@@ -1,8 +1,11 @@
 # colorpicker
 Only tested on Ubuntu 22.04.02.
 
-Run colorpicker from the terminal and click anywhere on your screen. Get the rgb and hex color of whatever pixel you clicked printed in the terminal.
+Run colorpicker from the terminal and click anywhere on your screen. 
+Get the rgb and hex color of whatever pixel you clicked printed in the terminal.
 
+
+![image](https://user-images.githubusercontent.com/120788835/234975069-d8b4f7a1-39c1-47fb-b3c6-e756e1c96677.png)
 
 
 # Prerequisite
