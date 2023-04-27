@@ -5,6 +5,7 @@ class OverlayWindow:
     def __init__(self):
         # Create a transparent fullscreen window
         self.root = tk.Tk()
+        self.root.configure(bg="#000") # a quick flask may occur once in a while, and if so, black is nicer than white
         self.root.overrideredirect(True)
         self.root.geometry("{0}x{1}+0+0".format(self.root.winfo_screenwidth(), self.root.winfo_screenheight()))
         
@@ -33,7 +34,8 @@ class ColorPicker:
         color_hex = self._get_hex(color_rgb)
 
         if output_to_terminal:
-            print(f"{color_rgb} | {color_hex}")
+            print(color_rgb)
+            print(color_hex)
 
         return (color_rgb, color_hex)        
     
