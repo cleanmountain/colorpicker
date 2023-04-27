@@ -1,5 +1,9 @@
 # colorpicker
-Only tested on Ubuntu 22.04.02
+Only tested on Ubuntu 22.04.02.
+
+Run colorpicker from the terminal and click anywhere on your screen. Get the rgb and hex color of whatever pixel you clicked printed in the terminal.
+
+
 
 # Prerequisite
 **1 Install Scrot** *(Is needed to capture a 1px screenshot)*  
